@@ -11,7 +11,6 @@ public class App {
         FileUtil fileUtil = new FileUtil();
         String content = fileUtil.readFile(INPUT_PATH);
         System.out.println(content);
-
         fileUtil.writeFile(OUTPUT_PATH, content);
     }
 }
