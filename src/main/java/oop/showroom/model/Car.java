@@ -1,9 +1,9 @@
-package oop.showroom;
+package oop.showroom.model;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.Setter;
+import oop.showroom.model.enums.*;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 public class Car extends Vehicle {
@@ -25,7 +25,7 @@ public class Car extends Vehicle {
     }
 
     @Override
-    Object getSimpleVehicle() {
+    public Object getSimpleVehicle() {
         return new SimpleCar(this);
     }
 

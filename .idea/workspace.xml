@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="saloon">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/BrandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ColourType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/EngineType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/FuelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/GearboxType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ModelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/MotorbikeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/BrandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/BrandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ColourType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/ColourType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/EngineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/EngineType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/FuelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/FuelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/GearboxType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/GearboxType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ModelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/ModelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Motorbike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/MotorbikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/MotorbikeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +73,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.oop.showroom.Main">
+  <component name="RunManager" selected="Application.ShowroomApp">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="operationsIO.App" />
       <module name="java-zaawansowana" />
@@ -96,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShowroomApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.showroom.ShowroomApp" />
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.showroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="oop.showroom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.showroom.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.showroom.*" />
+          <option name="PATTERN" value="oop.showroom.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +166,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ShowroomApp" />
       <item itemvalue="Application.oop.showroom.Main" />
       <item itemvalue="Application.operationsIO.serialization.Main" />
       <item itemvalue="Application.App" />
@@ -157,11 +175,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowroomApp" />
         <item itemvalue="Application.oop.showroom.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.operationsIO.serialization.Main" />
-        <item itemvalue="Application.oop.showroom.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673455318397</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="saloon">
+      <created>1673460183794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673460183794</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +269,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/develop" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>

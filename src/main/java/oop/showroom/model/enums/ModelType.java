@@ -1,4 +1,4 @@
-package oop.showroom;
+package oop.showroom.model.enums;
 
 public enum ModelType {
     X6, A4, C4

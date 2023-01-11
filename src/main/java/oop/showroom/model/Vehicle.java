@@ -1,6 +1,6 @@
-package oop.showroom;
+package oop.showroom.model;
 
-import lombok.ToString;
+import oop.showroom.model.enums.*;
 
 public abstract class Vehicle {
     private BrandType brand;
@@ -26,7 +26,7 @@ public abstract class Vehicle {
         this.isUsed = isUsed;
     }
 
-    abstract Object getSimpleVehicle();
+    public abstract Object getSimpleVehicle();
 
     public BrandType getBrand() {
         return brand;
