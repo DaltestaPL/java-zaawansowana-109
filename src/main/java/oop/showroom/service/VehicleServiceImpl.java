@@ -5,13 +5,15 @@ import oop.showroom.repository.VehicleRepository;
 
 public class VehicleServiceImpl implements VehicleService {
 
+    static int id = 0;
     @Override
     public void addVehicle(Vehicle vehicle) {
-        VehicleRepository.vehicles[0] = vehicle;
+        VehicleRepository.vehicles[id] = vehicle;
+        id++;
     }
 
     @Override
     public Vehicle[] getAllVehicles() {
-        return new Vehicle[0];
+        return VehicleRepository.vehicles;
     }
 }

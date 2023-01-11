@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="saloon">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/BrandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/BrandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ColourType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/ColourType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/EngineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/EngineType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/FuelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/FuelType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/GearboxType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/GearboxType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ModelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/ModelType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Motorbike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/MotorbikeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/MotorbikeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" afterDir="false" />
-    </list>
+    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="showroom" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673460183794</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="showroom">
+      <created>1673465977048</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673465977048</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +275,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="paths" />
     <MESSAGE value="saloon" />
-    <option name="LAST_COMMIT_MESSAGE" value="saloon" />
+    <MESSAGE value="showroom" />
+    <option name="LAST_COMMIT_MESSAGE" value="showroom" />
   </component>
 </project>
