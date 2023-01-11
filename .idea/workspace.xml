@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="saloon">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/BrandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ColourType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/GearboxType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ModelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/MotorbikeType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Motorbike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +28,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/input" root0="FORCE_HIGHLIGHTING" />
@@ -133,9 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.oop.showroom.Main" />
-        <item itemvalue="Application.operationsIO.serialization.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.operationsIO.serialization.Main" />
+        <item itemvalue="Application.oop.showroom.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673381190017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="saloon">
+      <created>1673455274540</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673455274540</updated>
+    </task>
+    <task id="LOCAL-00008" summary="saloon">
+      <created>1673455318397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673455318397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/develop" />
                       </list>
                     </value>
                   </entry>

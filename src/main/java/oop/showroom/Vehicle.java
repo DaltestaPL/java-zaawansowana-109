@@ -1,15 +1,22 @@
 package oop.showroom;
 
+import lombok.ToString;
+
 public abstract class Vehicle {
-    private String brand;
-    private String model;
-    private String colour;
-    private String engine;
+    private BrandType brand;
+    private ModelType model;
+    private ColourType colour;
+    private EngineType engine;
     private double mileage;
-    private String gearboxType;
+    private GearboxType gearboxType;
     private boolean isUsed;
 
-    public Vehicle(String brand, String model, String colour, String engine, double mileage, String gearboxType, boolean isUsed) {
+    public Vehicle(){
+
+    }
+
+    public Vehicle(BrandType brand, ModelType model, ColourType colour, EngineType engine, double mileage,
+                   GearboxType gearboxType, boolean isUsed) {
         this.brand = brand;
         this.model = model;
         this.colour = colour;
@@ -19,35 +26,37 @@ public abstract class Vehicle {
         this.isUsed = isUsed;
     }
 
-    public String getBrand() {
+    abstract Object getSimpleVehicle();
+
+    public BrandType getBrand() {
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public void setBrand(BrandType brand) {
         this.brand = brand;
     }
 
-    public String getModel() {
+    public ModelType getModel() {
         return model;
     }
 
-    public void setModel(String model) {
+    public void setModel(ModelType model) {
         this.model = model;
     }
 
-    public String getColour() {
+    public ColourType getColour() {
         return colour;
     }
 
-    public void setColour(String colour) {
+    public void setColour(ColourType colour) {
         this.colour = colour;
     }
 
-    public String getEngine() {
+    public EngineType getEngine() {
         return engine;
     }
 
-    public void setEngine(String engine) {
+    public void setEngine(EngineType engine) {
         this.engine = engine;
     }
 
@@ -59,11 +68,11 @@ public abstract class Vehicle {
         this.mileage = mileage;
     }
 
-    public String getGearboxType() {
+    public GearboxType getGearboxType() {
         return gearboxType;
     }
 
-    public void setGearboxType(String gearboxType) {
+    public void setGearboxType(GearboxType gearboxType) {
         this.gearboxType = gearboxType;
     }
 
