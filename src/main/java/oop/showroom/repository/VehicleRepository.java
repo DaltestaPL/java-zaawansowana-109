@@ -2,6 +2,9 @@ package oop.showroom.repository;
 
 import oop.showroom.model.Vehicle;
 
+/**
+ * Klasa imitująca bazę danych pojazdów
+ */
 public class VehicleRepository {
 
     /*

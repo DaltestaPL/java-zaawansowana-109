@@ -5,6 +5,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import oop.showroom.model.enums.*;
 
+/**
+ * Rozszerzenie klasy Vehicle
+ * Gettery i Settery zostaną utworzone w procesie kompilacji dzięki adnitacjom @Getter oraz @Setter
+ * Adnotacja @AllArgsConstructor utworzy bezparametrowy konstruktor public Car() {}
+ */
 @Getter
 @Setter
 @NoArgsConstructor
@@ -26,14 +31,21 @@ public class Car extends Vehicle {
         this.passengersNumber = passengersNumber;
     }
 
+    /**
+     * Implementacja akstrakcyjnej metody {@link Vehicle#getSimpleVehicle()}
+     * @return w tym przypadku {@link SimpleCar}
+     */
     @Override
     public Object getSimpleVehicle() {
         return new SimpleCar(this);
     }
 
-//    public SimpleCar createSimpleCar(Car car) {
-//        return new SimpleCar(car);
-//    }
+    /**
+        Metoda pozwalająca stworzyć {@link SimpleCar z dowolnego samochodu}
+     */
+    public SimpleCar createSimpleCar(Car car) {
+        return new SimpleCar(car);
+    }
 
     @Override
     public String toString() {
@@ -48,6 +60,9 @@ public class Car extends Vehicle {
                 "}";
     }
 
+    /**
+     * Statyczna klasa wewnętrzna, pozwalająca na zbudowanie okrojonego obiektu Car
+     */
     static class SimpleCar {
         private BrandType brandType;
         private ModelType modelType;

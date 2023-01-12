@@ -9,24 +9,39 @@ import oop.showroom.service.VehicleServiceImpl;
 
 import java.util.Scanner;
 
+/**
+ * Klasa służąca do uruchomienia aplikacji salonu
+ */
 public class ShowroomApp {
 
+    /*
+    Statyczny skaner dostępny tylko w tej klasie dzięki modyfikatorowi private
+     */
     private static final Scanner SCANNER = new Scanner(System.in);
 
+    /**
+     * Metoda uruchamiająca aplikację salonu
+     */
     public static void main(String[] args) throws InterruptedException {
         ShowroomApp showroomApp = new ShowroomApp();
         showroomApp.run();
     }
 
+    /**
+     * Metoda zawierająca logikę działania aplikacji salonu
+     * @throws InterruptedException wyjątek związany z wątkiem
+     */
     private void run() throws InterruptedException {
+        // Tworzę instancję serwisu, z którego potem będę brał metody do dodawania i wyświetlania pojazdów
         VehicleService vehicleService = new VehicleServiceImpl();
 
+        // wywołuję metodę, która doda mi dwa przykładowe pojazdy do bazy, żeby nie było pusto
         init(vehicleService);
 
         boolean on = true;
         System.out.println("Witaj w aplikacji salonu pojazdów!");
         Thread.sleep(1000);
-
+        // kod w pętli będzie wykonywany dopóki użytkownik nie przerwie jego wykonywania
         while (on) {
             showMenu();
             System.out.println("Wpisz odpowiednią liczbę:");

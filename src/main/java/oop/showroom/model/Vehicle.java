@@ -2,6 +2,10 @@ package oop.showroom.model;
 
 import oop.showroom.model.enums.*;
 
+/**
+ * Abstrakcyjna klasa, która zawiera część wspólną wszystkich pojazdów w systemie
+ * Klasa jest abstrakcyjna, więc nie można stworzyć jej instancji!
+ */
 public abstract class Vehicle {
     private BrandType brand;
     private ModelType model;
@@ -11,10 +15,24 @@ public abstract class Vehicle {
     private GearboxType gearboxType;
     private boolean isUsed;
 
+    /**
+     * Bezparametrowy konstruktor. Inicjując za pomocą niego obiekt, możemy potem
+     * określić wartości pól za pomocą setterów
+     */
     public Vehicle(){
 
     }
 
+    /**
+     * Konstruktor ze wszystkimi argumentami
+     * @param brand marka
+     * @param model model
+     * @param colour kolor
+     * @param engine silnik
+     * @param mileage przebieg
+     * @param gearboxType typ skrzyni biegów
+     * @param isUsed czy używany
+     */
     public Vehicle(BrandType brand, ModelType model, ColourType colour, EngineType engine, double mileage,
                    GearboxType gearboxType, boolean isUsed) {
         this.brand = brand;
@@ -26,8 +44,15 @@ public abstract class Vehicle {
         this.isUsed = isUsed;
     }
 
+    /**
+     * Abstrakcyjna metoda, która zaimplementowana w klasach {@link Car} i {@link Motorbike}
+     * @return {@link oop.showroom.model.Car.SimpleCar} lub {@link oop.showroom.model.Motorbike.SimpleMotorbike}
+     */
     public abstract Object getSimpleVehicle();
 
+    /*
+    Settery i gettery (mutatory)
+     */
     public BrandType getBrand() {
         return brand;
     }
@@ -83,6 +108,12 @@ public abstract class Vehicle {
     public void setUsed(boolean used) {
         isUsed = used;
     }
+
+    /**
+     * Nadpisanie metody z {@link Object#toString()} pozwala uniknąć zwracania referencji do obiektu
+     * przy wywołaniu. Zamiast tego otrzymujemy własną wiadomość
+     * @return zwykły {@link String}
+     */
     @Override
     public String toString() {
         return "Vehicle{" +
