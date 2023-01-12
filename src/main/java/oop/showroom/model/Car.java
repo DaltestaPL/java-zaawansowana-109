@@ -1,11 +1,13 @@
 package oop.showroom.model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import oop.showroom.model.enums.*;
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Car extends Vehicle {
     private FuelType fuel;
     private String carDrive;
