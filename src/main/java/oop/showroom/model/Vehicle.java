@@ -83,4 +83,16 @@ public abstract class Vehicle {
     public void setUsed(boolean used) {
         isUsed = used;
     }
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "brand=" + brand +
+                ", model=" + model +
+                ", colour=" + colour +
+                ", engine=" + engine +
+                ", mileage=" + mileage +
+                ", gearboxType=" + gearboxType +
+                ", isUsed=" + isUsed +
+                '}';
+    }
 }

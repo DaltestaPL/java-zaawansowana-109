@@ -22,6 +22,16 @@ public class Motorbike extends Vehicle {
         return new SimpleMotorbike(this);
     }
 
+    @Override
+    public String toString() {
+        return "Motorbike {" +
+                "brand: " + super.getBrand() +
+                ", model: " + super.getModel() +
+                ", motorbike type: " + motorbikeType +
+                ", motorbike drive: " + motorbikeDrive +
+                "} ";
+    }
+
     static class SimpleMotorbike {
         private final BrandType brandType;
         private final MotorbikeType motorbikeType;
