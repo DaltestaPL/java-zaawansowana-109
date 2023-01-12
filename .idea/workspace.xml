@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="collections">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/BrandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/enums/BrandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/repository/VehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/service/VehicleServiceImpl.java" afterDir="false" />
+    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="comments">
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673553944274</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="comments">
+      <created>1673556650310</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673556650310</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +316,8 @@
     <MESSAGE value="showroom application" />
     <MESSAGE value="showroom application ready" />
     <MESSAGE value="collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="collections" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
