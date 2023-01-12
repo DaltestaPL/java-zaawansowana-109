@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="showroom application">
+    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="showroom application ready">
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/SetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/ShowroomApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Motorbike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/showroom/model/Motorbike.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +61,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShowroomApp">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationsIO.App" />
+  <component name="RunManager" selected="Application.MapExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.ListExample" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationsIO.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationsIO.Main" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.MapExample" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operationsIO.*" />
+          <option name="PATTERN" value="collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.SetExample" />
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,19 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.showroom.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="operationsIO.serialization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operationsIO.serialization.Main" />
-      <module name="java-zaawansowana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operationsIO.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,20 +154,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.ListExample" />
+      <item itemvalue="Application.MapExample" />
+      <item itemvalue="Application.SetExample" />
       <item itemvalue="Application.ShowroomApp" />
       <item itemvalue="Application.oop.showroom.Main" />
-      <item itemvalue="Application.operationsIO.serialization.Main" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.SetExample" />
+        <item itemvalue="Application.ListExample" />
         <item itemvalue="Application.ShowroomApp" />
         <item itemvalue="Application.oop.showroom.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.operationsIO.serialization.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673547752840</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="showroom application ready">
+      <created>1673550981267</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673550981267</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +303,8 @@
     <MESSAGE value="saloon" />
     <MESSAGE value="showroom" />
     <MESSAGE value="showroom application" />
-    <option name="LAST_COMMIT_MESSAGE" value="showroom application" />
+    <MESSAGE value="showroom application ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="showroom application ready" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
