@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="comments">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/map/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/set/SetExercises.java" afterDir="false" />
+    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/set/SetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Dictionary">
+  <component name="RunManager" selected="Application.MapExercises">
     <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.map.Dictionary" />
       <module name="java-zaawansowana" />
@@ -80,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.MapExample" />
+    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.list.*" />
+          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +153,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Dictionary" />
+      <item itemvalue="Application.MapExercises" />
       <item itemvalue="Application.QueueExample" />
       <item itemvalue="Application.SetExercises" />
-      <item itemvalue="Application.MapExample" />
       <item itemvalue="Application.SetExample" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExercises" />
         <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.SetExercises" />
         <item itemvalue="Application.SetExample" />
         <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.MapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673556650310</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="exercises">
+      <created>1673891430119</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891430119</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +325,8 @@
     <MESSAGE value="showroom application ready" />
     <MESSAGE value="collections" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
