@@ -1,6 +1,5 @@
 package collections.map;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -33,13 +32,40 @@ public class MapExercises {
         }
 
         //Dodawanie oceny Janowi
-        classroom.get("Jan").add(1);
+//        classroom.get("Jan").add(1);
 
         //Liczenie średniej z ocen
         System.out.println("To ma równać się 4.0: " + countAvgForStudents(classroom).get("Basia"));
     }
 
+    //TODO obsłużyć wyjątek dzielenia przez 0
     private static Map<String, Double> countAvgForStudents(Map<String, List<Integer>> students) {
-        return null;
+        Map<String, Double> result = new HashMap<>();
+        for (Map.Entry<String, List<Integer>> record : students.entrySet()) {
+            int sum = 0;
+            for (Integer grade : record.getValue())
+                sum = sum + grade;
+
+            Double avg = (double) sum / record.getValue().size();
+
+            result.put(record.getKey(), avg);
+        }
+        return result;
     }
+
+//    private static Map<String, Double> countAvgForStudents(Map<String, List<Integer>> students) {
+//        double average = 0;
+//        double numberOfGrades = 0;
+//        Map<String, Double> result = new HashMap<>();
+//        var entrySet = students.entrySet();
+//        for (Map.Entry<String, List<Integer>> record : entrySet) {
+//            for(int i = 0; i< record.getValue().size(); i++){
+//                average += (double)record.getValue().get(i);
+//                numberOfGrades++;
+//            }
+//            double calculatedAverage = average/numberOfGrades;
+//            result.put(record.getKey(),calculatedAverage);
+//        }
+//        return result;
+//    }
 }

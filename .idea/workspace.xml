@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapExercises">
+  <component name="RunManager" selected="Application.ListExercises">
     <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.map.Dictionary" />
       <module name="java-zaawansowana" />
@@ -73,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
+    <configuration name="ListExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.list.ListExercises" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.QueueExample" />
+    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.list.*" />
+          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Dictionary" />
+      <item itemvalue="Application.ListExercises" />
       <item itemvalue="Application.MapExercises" />
-      <item itemvalue="Application.QueueExample" />
       <item itemvalue="Application.SetExercises" />
       <item itemvalue="Application.SetExample" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListExercises" />
         <item itemvalue="Application.MapExercises" />
         <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.SetExercises" />
         <item itemvalue="Application.SetExample" />
-        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673891430119</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="exercises">
+      <created>1673893785866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673893785866</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +335,27 @@
     <MESSAGE value="comments" />
     <MESSAGE value="exercises" />
     <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

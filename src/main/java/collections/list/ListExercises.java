@@ -1,6 +1,7 @@
 package collections.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -15,8 +16,12 @@ public class ListExercises {
         numbers.add(6);
         numbers.add(3);
         numbers.add(12);
+        System.out.println("Pierwotna lista: " + numbers);
+        System.out.println("Tylko parzyste liczby" + findEvenNumbers(numbers));
 
-        System.out.println(findEvenNumbers(numbers));
+        //Użycie collections
+        Collections.reverse(numbers);
+        System.out.println("Lista odwrotnie" + numbers);
     }
 
     /**
@@ -30,14 +35,4 @@ public class ListExercises {
         }
         return listOut;
     }
-
-//    public static List<Integer> findEvenNumbers (List<Integer> numbers){
-//        List<Integer> listOut = new ArrayList<>();
-//        for( int i = 0;i<numbers.size(); i++){
-//            if ((numbers.get(i) % 2)==0) {
-//                listOut.add(numbers.get(i));
-//            }
-//        }
-//        return listOut;
-//    }
 }
