@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="comments">
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/map/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collections/set/SetExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/list/ListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/set/SetExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MapExample">
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ListExample" />
+}</component>
+  <component name="RunManager" selected="Application.Dictionary">
+    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.Dictionary" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +81,24 @@
       </method>
     </configuration>
     <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.MapExample" />
+      <option name="MAIN_CLASS_NAME" value="collections.map.MapExample" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="collections.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.QueueExample" />
+      <module name="java-zaawansowana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.SetExample" />
+      <option name="MAIN_CLASS_NAME" value="collections.set.SetExample" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowroomApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.showroom.ShowroomApp" />
+    <configuration name="SetExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.set.SetExercises" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.showroom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oop.showroom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.showroom.Main" />
-      <module name="java-zaawansowana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.showroom.model.*" />
+          <option name="PATTERN" value="collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,20 +159,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ListExample" />
+      <item itemvalue="Application.Dictionary" />
+      <item itemvalue="Application.QueueExample" />
+      <item itemvalue="Application.SetExercises" />
       <item itemvalue="Application.MapExample" />
       <item itemvalue="Application.SetExample" />
-      <item itemvalue="Application.ShowroomApp" />
-      <item itemvalue="Application.oop.showroom.Main" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExample" />
+        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.SetExercises" />
         <item itemvalue="Application.SetExample" />
-        <item itemvalue="Application.ListExample" />
-        <item itemvalue="Application.ShowroomApp" />
-        <item itemvalue="Application.oop.showroom.Main" />
+        <item itemvalue="Application.QueueExample" />
+        <item itemvalue="Application.MapExample" />
       </list>
     </recent_temporary>
   </component>
