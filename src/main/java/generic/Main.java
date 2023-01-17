@@ -18,6 +18,6 @@ public class Main {
         arrayList.add("Damian");
         arrayList.add("Karolina");
 
-        list.union(arrayList);
+        System.out.println(list.union(arrayList));
     }
 }

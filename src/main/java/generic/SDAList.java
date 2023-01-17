@@ -43,8 +43,12 @@ public class SDAList<E> implements List<E> {
         return emptyList;
     }
 
+    @Override
+    public String toString() {
+        return list.toString();
+    }
 
-//    Resztę metod można zaimplementować samodzielnie
+    //    Resztę metod można zaimplementować samodzielnie
     @Override
     public int size() {
         return list.size();
@@ -87,7 +91,8 @@ public class SDAList<E> implements List<E> {
 
     @Override
     public boolean addAll(Collection<? extends E> c) {
-        return false;
+        this.list.addAll(c);
+        return true;
     }
 
     @Override
