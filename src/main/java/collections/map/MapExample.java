@@ -51,6 +51,5 @@ public class MapExample {
         for (Map.Entry<String, Integer> pair : klasa.entrySet()) {
             System.out.println("Uczen - ocena " + pair);
         }
-
     }
 }
