@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/IntegerFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/exercise/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/SDAList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaExample">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.map.Dictionary" />
       <module name="java-zaawansowana" />
@@ -103,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generic.Main" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.set.SetExercises" />
+    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.set.*" />
+          <option name="PATTERN" value="collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,20 +153,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Dictionary" />
       <item itemvalue="Application.LambdaExample" />
       <item itemvalue="Application.ListExercises" />
       <item itemvalue="Application.MapExercises" />
-      <item itemvalue="Application.SetExercises" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.ListExercises" />
         <item itemvalue="Application.MapExercises" />
         <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.SetExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673899164719</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="lambda">
+      <created>1673977937929</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673977937929</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
