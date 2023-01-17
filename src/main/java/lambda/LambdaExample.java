@@ -49,8 +49,23 @@ public class LambdaExample {
             }
         });
         */
+
+        //Wyrażenie lambda pozwala na dodanie do każdego lekarza Hello przed imieniem
         var editedList = editedDoctors(doctors, (s) -> "Hello " + s);
         System.out.println(editedList);
+
+        //Wyrażenie lambda pozwala na zliczneie liczby znaków w imieniu każdego lekarza
+        var countedDoctorsList = countedDoctors(doctors, ssdfsdfsdfsfds -> ssdfsdfsdfsfds.length());
+        System.out.println(countedDoctorsList);
+    }
+
+    private static List<Integer> countedDoctors(List<String> doctors,
+                                               IntegerFunctionalInterface functionalInterface) {
+        var result = new ArrayList<Integer>();
+        for (String d : doctors) {
+            result.add(functionalInterface.process(d));
+        }
+        return result;
     }
 
     private static List<String> editedDoctors(List<String> doctors, Doctor doctor) {

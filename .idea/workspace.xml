@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/Internist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" afterDir="false" />
+    <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/IntegerFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/exercise/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673896047307</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lambda">
+      <created>1673899164719</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673899164719</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +351,8 @@
     <MESSAGE value="collections" />
     <MESSAGE value="comments" />
     <MESSAGE value="exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+    <MESSAGE value="lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
