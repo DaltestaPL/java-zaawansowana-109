@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 //      ----------------------------FILTER---------------------------------------
@@ -29,6 +29,23 @@ public class Main {
         var strings = converter(integers);
         //lista stringów za pomocą stream
         var stringsFromStream = integersToMap.stream().map(integer -> String.valueOf(integer)).toList();
+
+//      --------------------------FLAT MAP----------------------------------------
+        Person jan = new Person("Jan", "Kowalski");
+        Person karolina = new Person("Karolina", "Szwata");
+        Person rozalia = new Person("Rozalia", "Kobylska");
+        Person maciej = new Person("Maciej", "Puszkowski");
+        Person tomasz = new Person("Tomasz", "Wojtyra");
+
+        var java = new Training("JAVA", List.of(jan, karolina, rozalia));
+        var python = new Training("PYTHON", List.of(rozalia, maciej, tomasz));
+
+        var trainings = List.of(java, python);
+
+        //wyciągamy wszystkie imiona osób na szkoleniach
+        var names = trainings.stream().flatMap(training -> training.getStudents().stream())
+                .map(person -> person.getName()).toList();
+        System.out.println("Imiona po flat mapie: " + names);
     }
 
     private static List<String> converter(List<Integer> integers) {

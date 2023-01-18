@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         //-------------SORTOWANIE - COLLECTIONS---------------------------------
         List<Integer> integers = new ArrayList<>(List.of(1,4,5,7,8,4356,8,9,87));
