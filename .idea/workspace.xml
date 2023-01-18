@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42bf7f32-d8ab-4524-88f3-2d089ecb646f" name="Changes" comment="generic types">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/generic/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/map/MapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lambda.generic.Main">
+  <component name="RunManager" selected="Application.MapExample">
     <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.LambdaExample" />
       <module name="java-zaawansowana" />
@@ -98,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.MapExercises" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.map.MapExample" />
       <module name="java-zaawansowana" />
       <extension name="coverage">
         <pattern>
@@ -151,20 +153,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.MapExample" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.lambda.generic.Main" />
       <item itemvalue="Application.LambdaExample" />
       <item itemvalue="Application.ListExercises" />
-      <item itemvalue="Application.MapExercises" />
       <item itemvalue="Maven.clean install" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.lambda.generic.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.ListExercises" />
-        <item itemvalue="Application.MapExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673985397021</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="generic types">
+      <created>1673985890788</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673985890788</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

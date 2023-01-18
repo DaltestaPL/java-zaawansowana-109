@@ -2,6 +2,7 @@ package collections.map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 public class MapExample {
     public static void main(String[] args) {
@@ -51,5 +52,13 @@ public class MapExample {
         for (Map.Entry<String, Integer> pair : klasa.entrySet()) {
             System.out.println("Uczen - ocena " + pair);
         }
+
+        //Wyświetlanie wszystkich elementów mapy za pomocą lambdy
+        klasa.forEach((k, v) -> System.out.println("Klucz: " + k + " Wartość: " + v));
+
+        //Wyświetlanie wszystkich elementów mapy za pomocą lambdy, które mają wartość większą niż 4
+        klasa.forEach((k, v) -> {
+            if (v > 4) System.out.println("Klucz: " + k + " Wartość: " + v);
+        });
     }
 }
