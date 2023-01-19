@@ -1,8 +1,9 @@
 package exceptions.atm;
 
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+
+import static exceptions.atm.ExceptionMessages.NOT_ENOUGH_MONEY_IN_ATM;
+import static java.lang.String.format;
 
 @Setter
 public class Atm {
@@ -14,12 +15,16 @@ public class Atm {
     }
 
     public void makeDeposit(Double amount) {
+        if (cash + amount > capacity) {
+            var maxDeposit = capacity - cash;
+            throw new ToMuchMoneyException(maxDeposit);
+        }
         this.cash += amount;
     }
 
     public void withdraw(Double amount) {
         if (cash - amount <= 0) {
-            throw new OutOfMoneyException(ExceptionMessages.NOT_ENOUGH_MONEY_IN_ATM.getMessage());
+            throw new OutOfMoneyException(format(NOT_ENOUGH_MONEY_IN_ATM.getMessage(), cash));
         }
         cash -= amount;
     }
