@@ -16,11 +16,14 @@ public class Main {
         String name = "Tomek";
         //.of() używamy gdy w optionalu nie ma null
         Optional<String> nameOptional = Optional.of(name);
+
         //.orElse() jeśli optional przechowuje null wtedy da nam obiekt z tej metody
+        //obiekt w orElse() zawsze zostanie stworzony
         var name1 = nameOptional.orElse("Kamil");
         System.out.println(".orElse(): " + name1);
 
         //.orElseGet()
+        //jeśli obiekt w optional nie jest null to orEleGet() nie stworzy obiektu String "Kamil"
         var name3 = nameOptional.orElseGet(() -> "Kamil");
         System.out.println(".orElseGet(): " + name3);
 

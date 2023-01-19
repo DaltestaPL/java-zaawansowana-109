@@ -5,6 +5,9 @@ import lombok.Setter;
 import static exceptions.atm.ExceptionMessages.NOT_ENOUGH_MONEY_IN_ATM;
 import static java.lang.String.format;
 
+/**
+ * Klasa reprezentująca bankomat
+ */
 @Setter
 public class Atm {
     private Double cash;
@@ -14,6 +17,10 @@ public class Atm {
         this.cash = cash;
     }
 
+    /**
+     * Metoda odpowiedzialna za wpłatę pieniędzy
+     * @param amount wpłacana kwota
+     */
     public void makeDeposit(Double amount) {
         if (cash + amount > capacity) {
             var maxDeposit = capacity - cash;
