@@ -1,12 +1,11 @@
 package showroom;
 
-import showroom.model.enums.*;
-import showroom.service.VehicleService;
-import showroom.service.VehicleServiceImpl;
 import showroom.model.Car;
 import showroom.model.Motorbike;
 import showroom.model.Vehicle;
-import showroom.showroom.model.enums.*;
+import showroom.model.enums.*;
+import showroom.service.VehicleService;
+import showroom.service.VehicleServiceImpl;
 
 import java.util.Scanner;
 

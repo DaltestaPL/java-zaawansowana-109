@@ -1,7 +1,6 @@
 package showroom.model;
 
 import showroom.model.enums.*;
-import showroom.showroom.model.enums.*;
 
 /**
  * Abstrakcyjna klasa, która zawiera część wspólną wszystkich pojazdów w systemie

@@ -4,7 +4,6 @@ import showroom.model.Car;
 import showroom.model.Vehicle;
 import showroom.model.enums.*;
 import showroom.model.Motorbike;
-import showroom.showroom.model.enums.*;
 
 public class Main {
     public static void main(String[] args) {

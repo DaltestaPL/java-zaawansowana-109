@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import showroom.model.enums.*;
-import showroom.showroom.model.enums.*;
 
 @Getter
 @Setter
