@@ -22,16 +22,16 @@ public class VehicleServiceTest {
         //and
         VehicleService vehicleService = new VehicleServiceImpl();
         //and
-        assertTrue(VehicleRepository.vehicles.isEmpty());
+        assertTrue(VehicleRepository.getVehicles().isEmpty());
 
         //when
         vehicleService.addVehicle(audi);
 
         //then
-        assertFalse(VehicleRepository.vehicles.isEmpty());
-        assertEquals(1, VehicleRepository.vehicles.size());
+        assertFalse(VehicleRepository.getVehicles().isEmpty());
+        assertEquals(1, VehicleRepository.getVehicles().size());
         //and
-        Vehicle vehicle = VehicleRepository.vehicles.get(0);
+        Vehicle vehicle = VehicleRepository.getVehicles().get(0);
         assertNotNull(vehicle);
         assertEquals(brandType, vehicle.getBrand());
         assertEquals(isUsed, vehicle.isUsed());

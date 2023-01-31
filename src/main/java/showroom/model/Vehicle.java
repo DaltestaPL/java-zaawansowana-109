@@ -7,6 +7,7 @@ import showroom.model.enums.*;
  * Klasa jest abstrakcyjna, więc nie można stworzyć jej instancji!
  */
 public abstract class Vehicle {
+    private Long id;
     private BrandType brand;
     private ModelType model;
     private ColourType colour;
@@ -109,6 +110,14 @@ public abstract class Vehicle {
         isUsed = used;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     /**
      * Nadpisanie metody z {@link Object#toString()} pozwala uniknąć zwracania referencji do obiektu
      * przy wywołaniu. Zamiast tego otrzymujemy własną wiadomość
@@ -117,7 +126,8 @@ public abstract class Vehicle {
     @Override
     public String toString() {
         return "Vehicle{" +
-                "brand=" + brand +
+                "id=" + id +
+                ", brand=" + brand +
                 ", model=" + model +
                 ", colour=" + colour +
                 ", engine=" + engine +
